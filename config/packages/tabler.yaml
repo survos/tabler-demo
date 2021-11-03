@@ -7,7 +7,7 @@
 tabler:
     options:
         # true = dark mode (light colors on dark background), false = normal mode (dark colors on light background)
-        dark_mode: true
+        dark_mode: false # lights
         # condensed = one nav-bar, false = two nav-bars
         navbar_condensed: true
         # true = boxed layout, false = full-screen
@@ -20,7 +20,7 @@ tabler:
         logo_url: ~
 
     knp_menu:
-        enable: false
+        enable: true
         main_menu: tabler_main
         breadcrumb_menu: false
 
