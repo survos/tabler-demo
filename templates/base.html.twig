@@ -3,3 +3,14 @@
 {% block page_content %}
     {{ block('body') }}
 {% endblock %}
+
+{% block navbar_menu %}
+
+    {{ include('@theme/render_sidebar_menu.html.twig',  {
+        theme: theme,
+        debug: app.request.get('debug', false),
+        menuCode: 'survos_sidebar_menu'}
+    )}}
+
+{% endblock %}
+

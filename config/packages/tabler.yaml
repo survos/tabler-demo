@@ -9,7 +9,7 @@ tabler:
         # true = dark mode (light colors on dark background), false = normal mode (dark colors on light background)
         dark_mode: false # lights
         # condensed = one nav-bar, false = two nav-bars
-        navbar_condensed: true
+        navbar_condensed: false
         # true = boxed layout, false = full-screen
         boxed_layout: false
         # false = left to right, true = right to left
@@ -21,11 +21,11 @@ tabler:
 
     knp_menu:
         enable: true
-        main_menu: tabler_main
+        main_menu: survos_sidebar_menu
         breadcrumb_menu: false
 
     routes:
-        tabler_welcome: home
+        tabler_welcome: app_homepage
         tabler_login: login
         tabler_logout: logout
         tabler_login_check: login_check
